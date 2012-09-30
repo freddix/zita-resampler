@@ -1,11 +1,11 @@
 Summary:	Zita resampler library
 Name:		zita-resampler
-Version:	1.1.0
-Release:	2
+Version:	1.2.0
+Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://kokkinizita.linuxaudio.org/linuxaudio/downloads/%{name}-%{version}.tar.bz2
-# Source0-md5:	75037d8e9dcf068195ea96be5b86da4d
+# Source0-md5:	9860ab7d4120ffdbed8fa09b626d546b
 BuildRequires:	fftw3-single-devel
 BuildRequires:	libstdc++-devel
 Patch0:		%{name}-make.patch
